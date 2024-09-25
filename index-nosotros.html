@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style-nosotros.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Descuentopía</title>
+</head>
+<body>
+    
+    <!--   Cabecera   -->
+    <header>   
+    
+        <img src="img/logo2.png"  alt="" >
+        <ul>
+          <li><a href="index.html"> Inicio   </a>   </li>
+          <li><a href="index-nosotros.html"> Nosotros  </a>  </li>
+          <li><a href="index-tienda.html"> Tienda   </a>   </li>
+          <li><a href="index-contactanos.html"> Contáctanos </a></li>    
+        </ul>    
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Ingresa una palabra...">
+            <button class="search-button">Buscar</button>
+        </div>
+
+    </header>
+
+
+
+    <!--   Cuerpo     -->
+    
+    <main>
+
+
+
+        <div class="container">
+            <div class="text-section">
+                <h2>Misión</h2>
+                <p>En Descuentopia, nos comprometemos a ofrecer a nuestros clientes una amplia gama de accesorios electrónicos de alta calidad a precios accesibles. Nuestra misión es proporcionar soluciones innovadoras que mejoren la experiencia tecnológica de nuestros usuarios, brindando un servicio excepcional y un asesoramiento personalizado. Buscamos ser el destino preferido para quienes valoran la calidad, el ahorro y la satisfacción del cliente, contribuyendo así al desarrollo y la modernización de sus entornos digitales.</p>
+            </div>
+            <div class="image-section">
+                <img src="img/img-mision.jpg" alt="Personas dándose la mano">
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="text-section">
+                <h2>Visión</h2>
+                <p>En Descuentopia, aspiramos a ser el líder en la venta de accesorios electrónicos, reconocidos por nuestra innovación, calidad y compromiso con el cliente. Nos proponemos transformar la forma en que las personas acceden a la tecnología, convirtiéndonos en el referente de confianza para productos asequibles y de alta calidad. Nuestro objetivo es expandir nuestra presencia a nivel nacional e internacional, creando una comunidad de entusiastas de la tecnología que valoren el ahorro sin comprometer la excelencia.</p>
+            </div>
+            <div class="image-section">
+                <img src="img/img-vision.jpg" alt="Personas dándose la mano">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="text-section">
+                <h2>Valores</h2>
+                <ul>
+                    <li>Orientación al cliente</li>
+                    <li>Confianza</li>
+                    <li>Innovación</li>
+                    <li>Calidad</li>
+                    <li>Pasión por la tecnología</li>
+                    <li>Excelencia</li>
+                    <li>Desarrollo continuo</li>
+                    <li>Sostenibilidad</li>
+                    <li>Adaptabilidad</li>
+                    <li>Rentabilidad</li>
+                </ul>
+            </div>
+            <div class="image-section">
+                <img src="img/valores.jpg" alt="Personas dándose la mano">
+            </div>
+        </div>
+
+
+
+
+        
+
+
+
+
+
+
+    </main>
+
+
+    
+    <!-- Pie de páginas -->
+
+
+    <footer>
+        <div class="header-part1">
+        <img src="img/logo3.png" alt="" >
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quae officiis quo eum,
+             possimus non iste sit eveniet excepturi nemo. </p>
+        <div>
+            <img src="img/facebook.png" alt="">
+            <img src="img/instagram.png" alt="">
+            <img src="img/x.png" alt="">
+            <img src="img/tiktok.png" alt="">
+            <img src="img/yt.png" alt="">
+        </div>
+        </div>
+
+
+        <div class="header-part2">
+            <h4>
+                    La empresa
+            </h4>
+            <ul>
+                    <li>Inicio</li>
+                    <li>Nosotros</li>
+                    <li>Tienda</li>
+                    <li>Contáctanos</li>
+            </ul>
+
+            </div>
+
+
+            <div class="header-part2">
+                <h4>
+                Tienda&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                </h4>
+                <ul>
+                        <li>Laptops</li>
+                        <li>Smartphones</li>
+                        <li>Relojes</li>
+                        <li>Auriculares</li>
+                </ul>
+    
+                </div>
+
+
+                <div class="header-part3">
+                    <h4> Información de la tienda</h4>
+                    <!-- <div>
+                        <img src="img/ubi.png" alt="">
+                        <p>Descuentopía-560 Mega 80 Comas  </p>
+                    </div>
+                    <div>
+                        <img src="img/whatsapp.png" alt="">
+                        <p>998765441</p>
+                    </div>
+                    <div>
+                        <img src="img/correo.png" alt="">
+                        <p>Descuentopía-business@gmail.com </p>
+                    </div> 
+                -->
+
+                <div class="header-part4">
+
+
+               <div class="header-img">
+
+                <img src="img/ubi.png" alt=""> <img src="img/whatsapp.png" alt=""><img src="img/correo.png" alt="">
+
+
+               </div>
+
+               <div class="header-parrafo">
+                <p>Los Olivos </p>
+                <p>998765441</p>
+                <p>Descuentopía-business@gmail.com </p>
+               </div>
+
+
+            </div>
+
+
+
+                </div>        
+
+
+
+
+
+
+    </footer>
+
+
+    
+</body>
+
+<script> 
+
+const carousel = document.querySelector('.carousel');
+const images = document.querySelectorAll('.carousel img');
+const dots = document.querySelectorAll('.dot');
+let currentIndex = 0;   
+
+
+dots.forEach((dot, index) => {
+  dot.addEventListener('click', () => {
+    currentIndex = index;
+    updateCarousel();
+  });
+});
+
+function updateCarousel() {
+  carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+  dots.forEach((dot, index) => {
+    dot.classList.remove('active');
+  });
+  dots[currentIndex].classList.add('active');
+}
+
+</script>
+
+
+
+
+</html>
